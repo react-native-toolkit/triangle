@@ -1,0 +1,27 @@
+{
+  "background_color": "#ffffff",
+  "description": "Storybook for the @react-native-toolkit/triangle open source library.",
+  "display": "standalone",
+  "lang": "en",
+  "name": "TriangleExample",
+  "short_name": "TriangleExample",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/expo-gh-pages/pwa/chrome-icon/chrome-icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/expo-gh-pages/pwa/chrome-icon/chrome-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/expo-gh-pages/pwa/chrome-icon/chrome-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
