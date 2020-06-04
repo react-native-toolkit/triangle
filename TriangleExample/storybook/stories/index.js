@@ -5,6 +5,6 @@ import { linkTo } from "@storybook/addon-links";
 
 import Welcome from "./Welcome";
 
-storiesOf("Welcome", module).add("to Storybook", () => (
+storiesOf("Welcome", module).add("to React Native Triangle Storybook", () => (
   <Welcome showApp={linkTo("Button")} />
 ));

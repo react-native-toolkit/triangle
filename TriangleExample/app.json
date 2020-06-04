@@ -1,6 +1,8 @@
 {
   "expo": {
     "name": "TriangleExample",
+    "description": "Storybook for the @react-native-toolkit/triangle open source library.",
+    "privacy": "public",
     "slug": "TriangleExample",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",

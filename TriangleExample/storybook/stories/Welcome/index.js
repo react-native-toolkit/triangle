@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { View, Text } from 'react-native';
+import React from "react";
+import PropTypes from "prop-types";
+import { View, Text, Linking, Image } from "react-native";
 
 export default class Welcome extends React.Component {
   styles = {
     wrapper: {
       flex: 1,
       padding: 24,
-      justifyContent: 'center',
+      justifyContent: "center",
     },
     header: {
       fontSize: 18,
@@ -18,9 +18,13 @@ export default class Welcome extends React.Component {
       marginBottom: 10,
       lineHeight: 18,
     },
+    logo: {
+      height: 75,
+      width: 75,
+    },
   };
 
-  showApp = event => {
+  showApp = (event) => {
     const { showApp } = this.props;
     event.preventDefault();
 
@@ -32,16 +36,30 @@ export default class Welcome extends React.Component {
   render() {
     return (
       <View style={this.styles.wrapper}>
-        <Text style={this.styles.header}>Welcome to React Native Storybook</Text>
+        <Image
+          source={require("../../../assets/splash.png")}
+          style={this.styles.logo}
+          resizeMode={"contain"}
+        />
+        <Text style={this.styles.header}>React Native Triangle</Text>
         <Text style={this.styles.content}>
-          This is a UI Component development environment for your React Native app. Here you can
-          display and interact with your UI components as stories. A story is a single state of one
-          or more UI components. You can have as many stories as you want. In other words a story is
-          like a visual test case.
+          This is a storybook app for the{" "}
+          <Text
+            style={{ textDecorationLine: "underline" }}
+            onPress={() =>
+              Linking.openURL(
+                "https://github.com/react-native-toolkit/triangle"
+              )
+            }
+          >
+            React Native Triangle
+          </Text>{" "}
+          library.
         </Text>
         <Text style={this.styles.content}>
-          We have added some stories inside the "storybook/stories" directory for examples. Try
-          editing the "storybook/stories/Welcome.js" file to edit this message.
+          {`👈 You can find all the possible triangle in this sidebar
+👉 You can modify the props in this sidebar
+👇 Use the below buttons to open the respective sidebars`}
         </Text>
       </View>
     );
