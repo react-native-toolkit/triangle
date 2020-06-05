@@ -1,24 +1,24 @@
 {
   "files": {
-    "app.js": "/expo-gh-pages/static/js/app.780da5dd.chunk.js",
-    "app.js.map": "/expo-gh-pages/static/js/app.780da5dd.chunk.js.map",
-    "runtime~app.js": "/expo-gh-pages/static/js/runtime~app.0afe0594.js",
-    "runtime~app.js.map": "/expo-gh-pages/static/js/runtime~app.0afe0594.js.map",
-    "static/js/2.b728cd95.chunk.js": "/expo-gh-pages/static/js/2.b728cd95.chunk.js",
-    "static/js/2.b728cd95.chunk.js.map": "/expo-gh-pages/static/js/2.b728cd95.chunk.js.map",
-    "favicon-16.png": "/expo-gh-pages/favicon-16.png",
-    "favicon-32.png": "/expo-gh-pages/favicon-32.png",
-    "favicon.ico": "/expo-gh-pages/favicon.ico",
-    "index.html": "/expo-gh-pages/index.html",
-    "manifest.json": "/expo-gh-pages/manifest.json",
-    "serve.json": "/expo-gh-pages/serve.json",
-    "static/media/color-circle.png": "/expo-gh-pages/static/media/color-circle.fb8bbc26.png",
-    "static/media/hsv_triangle_mask.png": "/expo-gh-pages/static/media/hsv_triangle_mask.9d4466bc.png",
-    "static/media/splash.png": "/expo-gh-pages/static/media/splash.acbf1791.png"
+    "app.js": "/triangle/static/js/app.dcd792cd.chunk.js",
+    "app.js.map": "/triangle/static/js/app.dcd792cd.chunk.js.map",
+    "runtime~app.js": "/triangle/static/js/runtime~app.5390cd79.js",
+    "runtime~app.js.map": "/triangle/static/js/runtime~app.5390cd79.js.map",
+    "static/js/2.8ad5bf50.chunk.js": "/triangle/static/js/2.8ad5bf50.chunk.js",
+    "static/js/2.8ad5bf50.chunk.js.map": "/triangle/static/js/2.8ad5bf50.chunk.js.map",
+    "favicon-16.png": "/triangle/favicon-16.png",
+    "favicon-32.png": "/triangle/favicon-32.png",
+    "favicon.ico": "/triangle/favicon.ico",
+    "index.html": "/triangle/index.html",
+    "manifest.json": "/triangle/manifest.json",
+    "serve.json": "/triangle/serve.json",
+    "static/media/color-circle.png": "/triangle/static/media/color-circle.fb8bbc26.png",
+    "static/media/hsv_triangle_mask.png": "/triangle/static/media/hsv_triangle_mask.9d4466bc.png",
+    "static/media/splash.png": "/triangle/static/media/splash.acbf1791.png"
   },
   "entrypoints": [
-    "static/js/runtime~app.0afe0594.js",
-    "static/js/2.b728cd95.chunk.js",
-    "static/js/app.780da5dd.chunk.js"
+    "static/js/runtime~app.5390cd79.js",
+    "static/js/2.8ad5bf50.chunk.js",
+    "static/js/app.dcd792cd.chunk.js"
   ]
 }
