@@ -1,6 +1,6 @@
 {
   "name": "@react-native-toolkit/triangle",
-  "version": "0.0.1-alpha-2",
+  "version": "0.0.1",
   "description": "Draw geometrically accurate triangles in React Native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
