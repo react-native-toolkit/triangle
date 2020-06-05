@@ -85,13 +85,15 @@ const Triangle = ({
     width: 0,
     height: 0,
     borderStyle: "solid",
-    borderColor: "transparent",
   };
 
   switch (mode) {
     case "top":
       triangleStyle = {
         ...triangleStyle,
+        borderTopColor: "transparent",
+        borderLeftColor: "transparent",
+        borderRightColor: "transparent",
         borderBottomColor: color,
       };
       break;
@@ -99,6 +101,9 @@ const Triangle = ({
     case "bottom":
       triangleStyle = {
         ...triangleStyle,
+        borderBottomColor: "transparent",
+        borderLeftColor: "transparent",
+        borderRightColor: "transparent",
         borderTopColor: color,
       };
       break;
@@ -106,6 +111,9 @@ const Triangle = ({
     case "left":
       triangleStyle = {
         ...triangleStyle,
+        borderTopColor: "transparent",
+        borderBottomColor: "transparent",
+        borderLeftColor: "transparent",
         borderRightColor: color,
       };
       break;
@@ -113,6 +121,9 @@ const Triangle = ({
     case "right":
       triangleStyle = {
         ...triangleStyle,
+        borderTopColor: "transparent",
+        borderBottomColor: "transparent",
+        borderRightColor: "transparent",
         borderLeftColor: color,
       };
       break;
@@ -120,6 +131,9 @@ const Triangle = ({
     case "bottom-left":
       triangleStyle = {
         ...triangleStyle,
+        borderTopColor: "transparent",
+        borderBottomColor: "transparent",
+        borderRightColor: "transparent",
         borderLeftColor: color,
       };
       break;
@@ -127,6 +141,9 @@ const Triangle = ({
     case "bottom-right":
       triangleStyle = {
         ...triangleStyle,
+        borderTopColor: "transparent",
+        borderLeftColor: "transparent",
+        borderRightColor: "transparent",
         borderBottomColor: color,
       };
       break;
@@ -134,6 +151,9 @@ const Triangle = ({
     case "top-left":
       triangleStyle = {
         ...triangleStyle,
+        borderBottomColor: "transparent",
+        borderLeftColor: "transparent",
+        borderRightColor: "transparent",
         borderTopColor: color,
       };
       break;
@@ -141,6 +161,9 @@ const Triangle = ({
     case "top-right":
       triangleStyle = {
         ...triangleStyle,
+        borderTopColor: "transparent",
+        borderBottomColor: "transparent",
+        borderLeftColor: "transparent",
         borderRightColor: color,
       };
       break;
