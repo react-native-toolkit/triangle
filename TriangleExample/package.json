@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "http://evanbacon.github.io/expo-gh-pages",
+  "homepage": "https://react-native-toolkit.github.io/triangle",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
