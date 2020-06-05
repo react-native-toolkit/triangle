@@ -1297,10 +1297,10 @@
     wcwidth "^1.0.1"
     ws "^1.1.0"
 
-"@react-native-toolkit/triangle@^0.0.1-alpha-1":
-  version "0.0.1-alpha-1"
-  resolved "https://registry.yarnpkg.com/@react-native-toolkit/triangle/-/triangle-0.0.1-alpha-1.tgz#369f0c95d7bc6fc5e5010f92f3d67df5d9cf492e"
-  integrity sha512-o7/+Bmj7XvmYHnq1NDTNE9v4+c7DGb0Un3IOaYqocZikyZA/pzZPoPYdE0Bk8tgq7boLqWHkUF3YZvOpH7Kzog==
+"@react-native-toolkit/triangle@^0.0.1-alpha-2":
+  version "0.0.1-alpha-2"
+  resolved "https://registry.yarnpkg.com/@react-native-toolkit/triangle/-/triangle-0.0.1-alpha-2.tgz#59ad0144e1cfbdbbbeada431a0e7f1ea6c53e817"
+  integrity sha512-DhvsZ+HR0y9BbVdskW313w4vvmgrHjJMkofDNokwtIi3nKCe8xz9mrWTzzYCIh4ykgTCW7YPU+LjXKcvfBr4OA==
 
 "@storybook/addon-actions@^5.3.19":
   version "5.3.19"

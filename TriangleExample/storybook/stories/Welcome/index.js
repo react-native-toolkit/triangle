@@ -57,8 +57,8 @@ export default class Welcome extends React.Component {
           library.
         </Text>
         <Text style={this.styles.content}>
-          {`👈 You can find all the possible triangle in this sidebar
-👉 You can modify the props in this sidebar
+          {`👈 You can find all the possible triangles in the left sidebar
+👉 You can modify the props in the right sidebar
 👇 Use the below buttons to open the respective sidebars`}
         </Text>
       </View>
